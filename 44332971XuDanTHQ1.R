@@ -10,6 +10,9 @@ Bond <-function(Coupon,Face,n,Yields){
   return(price+PVF)
 }
 
+#In the console, we can type 
+Bond(20,1000,4,c(0.01,0.02,0.03,0.04))
+
 #Question3
 # (a)
 dataset <- read.csv(file.choose(), header=T)
