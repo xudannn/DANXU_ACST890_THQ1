@@ -39,7 +39,7 @@ lm.fit1 = lm(dataset$gdp ~ dataset$exp)
 summary(lm.fit1)
 
 # (g)
-lm.fit2=lm(dataset$gdp~.,data=dataset)
+lm.fit2=lm(dataset$gdp~dataset$exp + dataset$epg + dataset$hpr + dataset$oil + dataset$gdpus + dataset$crd)
 summary(lm.fit2)
 
 # (h)
