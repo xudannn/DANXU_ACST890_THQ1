@@ -5,3 +5,11 @@ ssh -i 44332971.pem ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.co
 #(a)
 curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh
 curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh > triplet-stop.sh
+ls
+
+
+# Question 2
+#(a)
+# first download the file from ilearn 
+# upload the file onto the ubuntu desktop
+scp -i 44332971.pem tutes.txt ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com:
