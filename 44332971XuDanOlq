@@ -1,1 +1,7 @@
+# Login AWS account
 ssh -i 44332971.pem ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com
+
+#Question 1
+#(a)
+curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh
+curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh > triplet-stop.sh
