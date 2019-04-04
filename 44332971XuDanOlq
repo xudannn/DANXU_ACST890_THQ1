@@ -1,0 +1,1 @@
+ssh -i 44332971.pem ubuntu@ec2-54-252-141-71.ap-southeast-2.compute.amazonaws.com
